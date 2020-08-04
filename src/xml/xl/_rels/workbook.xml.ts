@@ -1,5 +1,5 @@
 import { BaseXML } from "../../BaseXML";
-import { XMLJsonObject } from "~/utils/xml";
+import { XMLJsonObject } from "@dangao/node-excel/utils/xml";
 import { BaseSheetXML } from "../worksheets/sheet.xml";
 
 export class WorkBookRelsXML extends BaseXML {

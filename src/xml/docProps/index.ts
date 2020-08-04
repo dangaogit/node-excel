@@ -1,5 +1,5 @@
 import { BaseFolder } from "../BaseFolder";
-import { ZipFiles } from "~/utils/zip";
+import { ZipFiles } from "@dangao/node-excel/utils/zip";
 import { AppXML } from "./app.xml";
 import { CoreXML } from "./core.xml";
 

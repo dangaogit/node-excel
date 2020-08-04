@@ -1,5 +1,5 @@
-import { ZipFile } from "~/utils/zip";
-import { XMLJson, XMLJsonObject } from "~/utils/xml";
+import { ZipFile } from "@dangao/node-excel/utils/zip";
+import { XMLJson, XMLJsonObject } from "@dangao/node-excel/utils/xml";
 import { BasePackage } from "./BasePackage";
 
 export abstract class BaseXML implements ZipFile<XMLJson>, BasePackage {

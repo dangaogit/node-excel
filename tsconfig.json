@@ -22,7 +22,8 @@
     "types": ["node"],
     "paths": {
       "~/*": ["./src/*"],
-      "@dangao/node-excel": ["./src"]
+      "@dangao/node-excel/*": ["./src/*"],
+      "@dangao/node-excel": ["./src"],
     }
   },
   "exclude": ["node_modules", "./dist"]

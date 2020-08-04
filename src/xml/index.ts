@@ -1,5 +1,5 @@
 import { BaseFolder } from "./BaseFolder";
-import { ZipFiles, Zip } from "~/utils/zip";
+import { ZipFiles, Zip } from "@dangao/node-excel/utils/zip";
 import { ROOTRelsFolder } from "./_rels";
 import { DocPropsFolder } from "./docProps";
 import { XLFolder } from "./xl";

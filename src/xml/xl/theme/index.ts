@@ -1,5 +1,5 @@
 import { BaseFolder } from "../../BaseFolder";
-import { ZipFiles } from "~/utils/zip";
+import { ZipFiles } from "@dangao/node-excel/utils/zip";
 import { Theme1XML } from "./theme1.xml";
 
 export class ThemeFolder extends BaseFolder {
