@@ -21,9 +21,7 @@
     "baseUrl": ".",
     "types": ["node"],
     "paths": {
-      "~/*": ["./src/*"],
-      "@dangao/node-excel/*": ["./src/*"],
-      "@dangao/node-excel": ["./src"],
+      "~/*": ["./src/*"]
     }
   },
   "exclude": ["node_modules", "./dist"]

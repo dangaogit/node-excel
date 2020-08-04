@@ -1,5 +1,5 @@
 import { BaseXML } from "../BaseXML";
-import { XMLJsonObject } from "@dangao/node-excel/utils/xml";
+import { XMLJsonObject } from "~/utils/xml";
 
 export class SharedStringsXML extends BaseXML {
   public json: XMLJsonObject;

@@ -1,4 +1,4 @@
-import { XMLJsonObject } from "@dangao/node-excel/utils/xml";
+import { XMLJsonObject } from "~/utils/xml";
 import { BaseXML } from "./BaseXML";
 import { BaseSheetXML } from "./xl/worksheets/sheet.xml";
 

@@ -1,5 +1,5 @@
 import { BaseXML } from "../../BaseXML";
-import { XMLJsonObject } from "@dangao/node-excel/utils/xml";
+import { XMLJsonObject } from "~/utils/xml";
 import { ColumnIdFactory } from "./ColumnIdFactory";
 
 export interface SheetRow {

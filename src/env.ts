@@ -1,3 +1,3 @@
-import { addAlias } from "module-alias";
+import alias from "@dangao/node-alias";
 
-addAlias("@dangao/node-excel", __dirname);
+alias.add("~", __dirname);

@@ -1,4 +1,4 @@
-import { ZipFolder, ZipFiles } from "@dangao/node-excel/utils/zip";
+import { ZipFolder, ZipFiles } from "~/utils/zip";
 import { BasePackage } from "./BasePackage";
 
 export abstract class BaseFolder implements ZipFolder, BasePackage {

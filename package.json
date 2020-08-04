@@ -1,6 +1,6 @@
 {
   "name": "@dangao/node-excel",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "excel for nodejs",
   "main": "dist/index.js",
   "repository": "https://github.com/dangaogit/node-excel.git",
@@ -20,6 +20,7 @@
     "typescript": "^3.9.7"
   },
   "dependencies": {
+    "@dangao/node-alias": "^0.1.1",
     "jszip": "^3.5.0",
     "module-alias": "^2.2.2",
     "xml2js": "^0.4.23"

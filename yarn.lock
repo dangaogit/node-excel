@@ -2,6 +2,18 @@
 # yarn lockfile v1
 
 
+"@dangao/node-alias@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@dangao/node-alias/-/node-alias-0.1.1.tgz#6bda931f6f83ddff413e198a762c5af11697f9e3"
+  integrity sha512-rid8QIkp3SyIZCrLr8vbomtdRZxLWeBiW1DUG4OEYoI97NmwuVVnYLj+2mFWc/sEoFXCeBnEJhg3KSs5Cvk0eg==
+  dependencies:
+    "@dangao/node-stack" "^1.0.0"
+
+"@dangao/node-stack@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@dangao/node-stack/-/node-stack-1.0.0.tgz#c9404be5ade55adda75e3121b790d480b5f4d6a3"
+  integrity sha512-l52Gxry/C2caBU+b8yzhxhdA79E1BSA40zTDVnPeCVZlZeHITK2+U07KnyEBEEHw6h9EqkJpfKBhiBD0cylAJA==
+
 "@types/module-alias@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@types/module-alias/-/module-alias-2.0.0.tgz#882668f8b8cdbda44812c3b592c590909e18849e"

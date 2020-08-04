@@ -1,5 +1,5 @@
 import "./env";
-import { Excel, ExcelRow } from "@dangao/node-excel";
+import { Excel, ExcelRow } from "~/index";
 
 async function test() {
   const excel = new Excel().toXlsx();
@@ -21,4 +21,6 @@ async function test() {
   return zipbuffer;
 }
 
-test();
+test().then(data => {
+  console.log(data)
+});

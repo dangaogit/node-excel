@@ -1,5 +1,5 @@
 import { BaseXML } from "../../BaseXML";
-import { XMLJsonObject } from "@dangao/node-excel/utils/xml";
+import { XMLJsonObject } from "~/utils/xml";
 
 // const SrgbClrs = [
 //   '5B9BD5',
