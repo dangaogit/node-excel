@@ -19,8 +19,10 @@
     "moduleResolution": "node",
     "charset": "utf8",
     "baseUrl": ".",
+    "types": ["node"],
     "paths": {
-      "~/*": ["./src/*"]
+      "~/*": ["./src/*"],
+      "@dangao/node-excel": ["./src"]
     }
   },
   "exclude": ["node_modules", "./dist"]

@@ -1,3 +1,4 @@
+import "./env";
 import { ExcelXlsx } from "./xlsx";
 
 export interface ExcelCell {
@@ -18,7 +19,7 @@ export interface ExcelOptions {
 
 export class Excel {
 
-  constructor(public sheets: ExcelSheet[], public options: Partial<ExcelOptions>) { }
+  constructor(public sheets: ExcelSheet[] = [], public options: Partial<ExcelOptions> = {}) { }
 
 
   toXlsx() {

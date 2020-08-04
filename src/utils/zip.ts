@@ -32,7 +32,6 @@ export class Zip {
       }
       else {
         if (typeof file.data === 'string' ||
-          file.data instanceof Blob ||
           file.data instanceof ArrayBuffer ||
           file.data instanceof Uint8Array ||
           file.data instanceof Array) {
