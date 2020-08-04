@@ -1,6 +1,6 @@
 {
   "name": "@dangao/node-excel",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "excel for nodejs",
   "main": "dist/index.js",
   "repository": "https://github.com/dangaogit/node-excel.git",
